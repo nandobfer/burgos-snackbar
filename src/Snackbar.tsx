@@ -8,7 +8,7 @@ interface SnackbarProps {
     contentProps?: Partial<SnackbarContentProps>
     alertSx?: SxProps
     anchorOrigin?: SnackbarOrigin
-    autoHideDuration: number
+    autoHideDuration?: number
 }
 
 export const Snackbar: React.FC<SnackbarProps> = ({ sx, contentProps, alertSx, anchorOrigin, autoHideDuration }) => {
