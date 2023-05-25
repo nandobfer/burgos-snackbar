@@ -1,12 +1,7 @@
 import React from "react"
-import { Snackbar as MuiSnackbar, Alert, SxProps, SnackbarContentProps } from "@mui/material"
+import { Snackbar as MuiSnackbar, Alert } from "@mui/material"
 import { useSnackbar } from "."
 
-interface SnackbarProps {
-    sx?: SxProps
-    contentProps?: Partial<SnackbarContentProps>
-    alertSx ?: SxProps
-}
 
 export const Snackbar: React.FC<SnackbarProps> = ({sx, contentProps, alertSx}) => {
     const snackbar = useSnackbar()

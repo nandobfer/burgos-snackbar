@@ -1,11 +1,5 @@
-import { AlertColor } from "@mui/material"
 import { useContext } from "react"
 import SnackbarContext from "./snackbarContext"
-
-interface OpenSnackbar {
-    text: string
-    severity: AlertColor
-}
 
 export const useSnackbar = () => {
     const snackbarContext = useContext(SnackbarContext)

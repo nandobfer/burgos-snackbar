@@ -2,20 +2,7 @@ import { createContext, useState } from "react"
 import React from "react"
 import { AlertColor } from "@mui/material"
 
-export interface Snackbar {
-    open: boolean
-    setOpen: (open: boolean) => void
-    text: string
-    setText: (text: string) => void
-    severity: AlertColor
-    setSeverity: (severity: AlertColor) => void
-}
-
-interface SnackbarProviderProps {
-    children: React.ReactNode
-}
-
-const SnackbarContext = createContext<Snackbar>({} as Snackbar)
+const SnackbarContext = createContext<SnackbarContextValues>({} as SnackbarContextValues)
 
 export default SnackbarContext
 
