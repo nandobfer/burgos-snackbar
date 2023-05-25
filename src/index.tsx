@@ -1,20 +1,3 @@
-import { AlertColor } from "@mui/material"
-import { useContext } from "react"
-import SnackbarContext from "./snackbarContext"
-
-interface OpenSnackbar {
-    text: string
-    severity: AlertColor
-}
-
-export const useSnackbar = () => {
-    const snackbarContext = useContext(SnackbarContext)
-
-    const snackbar = (options: OpenSnackbar) => {
-        snackbarContext.setSeverity(options.severity)
-        snackbarContext.setText(options.text)
-        snackbarContext.setOpen(true)
-    }
-
-    return { snackbar, ...snackbarContext }
-}
+export { useSnackbar } from "./useSnackbar"
+export { Snackbar } from "./Snackbar"
+export { SnackbarProvider } from "./snackbarContext"
