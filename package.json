@@ -1,13 +1,13 @@
 {
     "name": "burgos-snackbar",
-    "version": "2.0.1",
+    "version": "2.0.9",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tsc",
-        "publish": "tsc ; npm version patch ; npm publish"
+        "deploy": "tsc && npm publish"
     },
     "repository": {
         "type": "git",
