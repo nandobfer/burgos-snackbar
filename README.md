@@ -3,7 +3,7 @@
 
 ### Preparation
 
-wrap your app in `<SnackbarProvider>  <SnackbarProvider/>` and place the `<Snackbar />` component:
+	wrap your app with `<SnackbarProvider>` and place the `<Snackbar />` component:
 
 ```jsx
 <SnackbarProvider>
