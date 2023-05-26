@@ -1,5 +1,5 @@
 # Snackbar
-### A hook, context and component for rendering @mui/material snackbar globally
+#### A hook, context and component for rendering @mui/material snackbar globally
 
 ### Preparation
 
