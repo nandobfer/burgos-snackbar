@@ -1,6 +1,6 @@
 {
     "name": "burgos-snackbar",
-    "version": "2.0.18",
+    "version": "2.1.0",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -22,10 +22,10 @@
         "url": "https://github.com/nandobfer/burgos-snackbar/issues"
     },
     "homepage": "https://github.com/nandobfer/burgos-snackbar#readme",
-    "dependencies": {
+    "peerDependencies": {
         "@emotion/react": "^11.11.0",
         "@emotion/styled": "^11.11.0",
-        "@mui/material": "^5.13.2",
+        "@mui/material": "^5.x",
         "react": "^18.2.0"
     }
 }
